@@ -1,0 +1,77 @@
+body {
+  background: white;
+  padding: 0;
+}
+
+.content {
+  background: white;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.gallery {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+img {
+  transition: all 200ms ease-in-out;
+}
+img:hover {
+  opacity: 0.9;
+}
+.about-us-wrapper {
+  background: rgb(206, 206, 207);
+}
+.about-us {
+  margin: 20px auto 0;
+  padding: 20px;
+}
+
+.contact-us-wrapper {
+  background: black;
+  color: white;
+  margin: 0;
+}
+.contact-us {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navigation-wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+.navigation {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+  top: 76px;
+}
+
+.logo {
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+
+ul {
+  list-style: none;
+  line-height: 50px;
+  float: left;
+  margin: 0 0 25px -10px;
+  border: 1px solid;
+  border-radius: 30px;
+  background: ;
+}
+li {
+  display: inline;
+  border-radius: 30px;
+  border: 1px solid;
+  padding: 10px 50px;
+  margin: 40px 10px;
+}
+li:hover {
+  background: black;
+  color: white;
+}
