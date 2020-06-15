@@ -11,6 +11,15 @@ body {
   background: black;
 }
 
+.carousel {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel img {
+  height: 500px;
+}
+
 .content {
   background: white;
   max-width: 100%;
@@ -31,7 +40,7 @@ img:hover {
   opacity: 0.9;
 }
 .about-us-wrapper {
-  background: rgb(206, 206, 207);
+  background: #f8f9fa;
 }
 .about-us {
   margin: 20px auto 0;
@@ -57,8 +66,4 @@ img:hover {
   padding: 10px;
   text-align: left;
   top: 76px;
-}
-
-.gallery-wrapper {
-  top: 100px;
 }
