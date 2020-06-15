@@ -19,6 +19,9 @@ body {
 .carousel img {
   height: 500px;
 }
+.carousel-slide {
+  margin: 0;
+}
 
 .content {
   background: white;
@@ -55,6 +58,10 @@ img:hover {
 .contact-us {
   margin: 0 auto;
   padding: 20px;
+  margin-left: 120px;
+}
+.social {
+  padding: 75px 0 0 0;
 }
 
 .navigation-wrapper {
