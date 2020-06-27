@@ -42,6 +42,12 @@ img {
 img:hover {
   opacity: 0.9;
 }
+.card-img-top {
+  margin: 0;
+}
+.card {
+  margin: 10px 0;
+}
 .about-us-wrapper {
   background: #f8f9fa;
 }
@@ -60,8 +66,10 @@ img:hover {
   padding: 25px;
 }
 
+.map-wrapper {
+  padding: 0;
+}
 .map {
-  border-radius: 10px;
   filter: grayscale(100%);
   transition: all 200ms all ease-in-out;
   width: 100%;
@@ -71,15 +79,10 @@ img:hover {
   filter: none;
 }
 
-.eshop-wrapper {
-  background: #f8f9fa;
-}
 .eshop-content {
   margin: 20px auto 0;
   padding: 20px;
-  border: 1px solid;
 }
-
 .columns {
   border: 1px solid;
 }
