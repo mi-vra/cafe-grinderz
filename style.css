@@ -60,6 +60,20 @@ img:hover {
   padding: 20px;
   margin-left: 120px;
 }
+
+.eshop-wrapper {
+  background: #f8f9fa;
+}
+.eshop-content {
+  margin: 20px auto 0;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.columns {
+  border: 1px solid;
+}
+
 .social {
   padding: 75px 0 0 0;
 }
@@ -74,3 +88,5 @@ img:hover {
   text-align: left;
   top: 76px;
 }
+
+/* Do not forget to code "sticky" footer */
