@@ -47,18 +47,28 @@ img:hover {
 }
 .about-us {
   margin: 20px auto 0;
-  padding: 20px;
+  padding: 30px;
 }
 
-.contact-us-wrapper {
-  background: black;
-  color: white;
-  margin: 0;
-}
 .contact-us {
-  margin: 0 auto;
-  padding: 20px;
-  margin-left: 120px;
+  margin: 20px auto 0;
+}
+.contact-us-wrapper {
+  color: white;
+  background: black;
+  margin: auto 0;
+  padding: 25px;
+}
+
+.map {
+  border-radius: 10px;
+  filter: grayscale(100%);
+  transition: all 200ms all ease-in-out;
+  width: 100%;
+}
+
+.map:hover {
+  filter: none;
 }
 
 .eshop-wrapper {
