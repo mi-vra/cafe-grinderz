@@ -28,8 +28,9 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
+
   <body>
     <div class="all">
       <div class="content">
@@ -37,7 +38,7 @@
         <nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top">
           <a href="en.html" class="navbar-brand"
             ><img
-              src="img/logo.png"
+              src="../img/logo.png"
               width="50"
               height="50"
               loading="lazy"
@@ -56,12 +57,23 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a href="en.html" class="nav-item nav-link active">Home</a>
-              <a href="#about-us" class="nav-item nav-link">About Us</a>
-              <a href="#contact-us" class="nav-item nav-link">Contact</a>
-              <a href="eshop.html" class="nav-item nav-link">E-shop</a>
-            </div>
+            <ul class="navbar-nav justify-content-end">
+              <li class="nav-item nav-link active">
+                <a href="../fr/acceuil.html">Acceuil</a>
+              </li>
+              <li class="nav-item nav-link">
+                <a href="#about-us">À propos de nous</a>
+              </li>
+              <li class="nav-item nav-link">
+                <a href="#contact-us">Contact</a>
+              </li>
+              <li class="nav-item nav-link">
+                <a href="eshop.html">Boutique</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav justify-content-end">
+              <li class="navbar-text">EN</li>
+            </ul>
           </div>
         </nav>
 
@@ -75,35 +87,35 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  src="img/img01.jpg"
+                  src="../img/img01.jpg"
                   class="d-block w-100 img-fluid"
                   alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="img/img02.jpg"
+                  src="../img/img02.jpg"
                   class="d-block w-100 img-fluid"
                   alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="img/img03.jpg"
+                  src="../img/img03.jpg"
                   class="d-block w-100 img-fluid"
                   alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="img/img04.jpg"
+                  src="../img/img04.jpg"
                   class="d-block w-100 img-fluid"
                   alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="img/img05.jpg"
+                  src="../img/img05.jpg"
                   class="d-block w-100 img-fluid"
                   alt="..."
                 />
@@ -138,7 +150,7 @@
         <section class="about">
           <div class="col-sm-12 about-us-wrapper">
             <div class="col-sm-10 about-us" id="about-us">
-              <h1>About us</h1>
+              <h1>À propos de nous</h1>
               <p>
                 Lorem ipsum dolor sit amet, has vivendo albucius ocurreret ad,
                 cum in veniam feugiat eruditi. Error delenit ne vis. Legimus
@@ -157,7 +169,7 @@
         <footer class="sticky-bottom">
           <div id="contact-us" class="col-sm-12 contact-us-wrapper">
             <div class="col-sm-10 contact-us">
-              <h1>Contact us</h1>
+              <h1>Contact</h1>
             </div>
             <div class="col-sm-10 contact-us">
               <div class="row">
@@ -171,17 +183,17 @@
                 </div>
                 <div class="col-sm-3">
                   <p>
-                    <strong>Opening hours</strong> <br />
-                    Mon 09:00 - 17:00 <br />
-                    Tue 09:00 - 20:00 <br />
-                    Wed 09:00 - 20:00 <br />
-                    Thu 09:00 - 20:00 <br />
-                    Fri 09:00 - 17:00 <br />
-                    Sat 09:00 - 17:00 <br />
-                    Sun 09:00 - 20:00
+                    <strong>Horaire</strong> <br />
+                    Lun 09:00 - 17:00 <br />
+                    Mar 09:00 - 20:00 <br />
+                    Mer 09:00 - 20:00 <br />
+                    Jeu 09:00 - 20:00 <br />
+                    Ven 09:00 - 17:00 <br />
+                    Sam 09:00 - 17:00 <br />
+                    Dim 09:00 - 20:00
                   </p>
                 </div>
-                <div class="col-sm-4"></div>
+                <div class="col-sm-4"><strong>Suivez-nous</strong> <br /></div>
               </div>
             </div>
           </div>
@@ -203,6 +215,6 @@
         </footer>
       </div>
     </div>
-    <script src="src/app.js"></script>
+    <!-- <script src="../app.js"></script> -->
   </body>
 </html>
